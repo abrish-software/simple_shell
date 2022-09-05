@@ -7,8 +7,8 @@ void getpids(void)
 {
 	pid_t pid, fpid;
 
-	pid = getpid(); /* parent process */
-	fpid = fork(); /* child process */
+	pid = getpid(); /* parent  */
+	fpid = fork(); /* child  */
 
 	if (fpid == 0)
 	{
