@@ -23,4 +23,4 @@ int _getline(char **buffer)
 /* ssize_t getline(char **lineptr, size_t *n, FILE *stream); */
 
 /* alternative way is to use write, and not have size because getline */
-/* dynamically mallocs. Make sure to free */
+/* dynamically mallocs. Make sure to free it */
