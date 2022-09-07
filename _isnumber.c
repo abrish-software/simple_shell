@@ -1,7 +1,7 @@
 #include "ctype.h"
 
 /**
-  * _isnumber - check if a string consists only of digits
+  * _isnumber - check if a string consists only of numbers
   * @s: pointer to string
   * Return: true or false
   */
