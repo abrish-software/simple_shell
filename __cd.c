@@ -1,7 +1,7 @@
 #include "builtins.h"
 
 /**
- * __cd_error - print an error upon failure to change directory
+ * __cd_error - print an error upon failure to change directory's 
  * @info: shell info
  * @dir: directory
  */
@@ -48,7 +48,7 @@ void __cd_success(info_t *info)
 
 
 /**
- * __cd - changes the directory
+ * __cd - changes the directory function 
  * @info: arguments passed
  *
  * Return: int
