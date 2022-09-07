@@ -1,7 +1,7 @@
 #include "ctype.h"
 
 /**
-  * _isdigit - checks if the character is digit
+  * _isdigit - checks if the character is numbers digit
   * @c: character to check
   * Return: int
   */
