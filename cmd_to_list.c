@@ -1,7 +1,7 @@
 #include "command.h"
 
 /**
- * cmd_to_list - construct a linked list of tokenized commands
+ * cmd_to_list - construct a linked list of tokenized commands. 
  * @cmd: the command to parse
  *
  * Return: If memory allocation fails, return NULL. Otherwise, return a
