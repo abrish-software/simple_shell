@@ -41,7 +41,7 @@ dict_t *get_dict_node(dict_t *head, const char *key)
 
 
 /**
-  * add_dict_node_end - adds node at the end of list
+  * add_dict_node_end - adds node at the end of list of dlictionary  
   * @headptr: pointer to dict
   * @key: entry key
   * @val: entry val
@@ -71,7 +71,7 @@ dict_t *add_dict_node_end(dict_t **headptr, const char *key, const char *val)
 
 
 /**
-  * del_dict_node - delete a node
+  * del_dict_node - delete a node from dictionary
   * @headptr: pointer to dict
   * @key: entry key
   *
@@ -98,7 +98,7 @@ dict_t *del_dict_node(dict_t **headptr, const char *key)
 
 
 /**
- * free_dict - free a linked list and and set head to NULL
+ * free_dict - free a dictionary linked list and and set head to NULL
  * @headptr: the first list node
  */
 void free_dict(dict_t **headptr)
