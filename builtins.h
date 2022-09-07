@@ -17,7 +17,7 @@
 #define ALIAS_DESC								\
 	"Define and display aliases.\n\0"					\
 	"If given no arguments, existing alias definitions are displayed.\0"	\
-	"an alias is defined for each KEY=VALUE pair provided.\0"	
+	"Otherwise, an alias is defined for each KEY=VALUE pair provided.\0"	\
 	"For each KEY with no VALUE the corresponding alias is displayed.\0"	\
 	"If VALUE ends with a space, the following word will be expanded.\0"	\
 	"\0"
